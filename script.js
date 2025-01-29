@@ -185,7 +185,7 @@ class FactGenerator {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    model: 'google/learnlm-1.5-pro-experimental:free',
+                    model: 'deepseek/deepseek-r1:free',
                     messages: [{
                         role: 'system',
                         content: 'Anda adalah penjana fakta yang menarik dalam Bahasa Malaysia. Gunakan bahasa yang santai dan mesra, seolah-olah anda bercerita kepada kawan. Fakta perlu ditulis dengan gaya penceritaan yang menarik dan mudah difahami. Elakkan penggunaan bahasa formal.'
